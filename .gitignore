@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Dataset gốc (quá lớn cho git)
+UR_fall_detection_dataset_cam0_rgb/
+ur-fall-detection-dataset.zip
+
+# Data đã xử lý (sinh lại bằng processdata.py)
+processed_data.npz
+
+# MediaPipe model (tự tải khi chạy)
+pose_landmarker_lite.task
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
