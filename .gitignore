@@ -1,9 +1,18 @@
 # Virtual environment
 .venv/
 
+# Script chứa token (không commit)
+download_data.py
+
 # Dataset gốc (quá lớn cho git)
 UR_fall_detection_dataset_cam0_rgb/
-ur-fall-detection-dataset.zip
+UR_fall_detection_dataset_cam1_rgb/
+fall-detection-dataset/
+fall_dataset/
+*.zip
+
+# Wheelhouse (pip offline packages — sinh lại bằng: pip download -r requirements.txt -d wheelhouse)
+wheelhouse/
 
 # Data đã xử lý (sinh lại bằng processdata.py)
 processed_data.npz
